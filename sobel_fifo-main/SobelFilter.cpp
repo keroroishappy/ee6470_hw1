@@ -161,7 +161,7 @@ void Filter::do_filter(){
     //std::cout<<"result= "<<result<<"  "<<std::endl;
     //o_result.write(result);
      k=k+1;
-     std::cout<<"k "<<k<<"  "<<std::endl;
+     std::cout<<"k times"<<k<<"  "<<std::endl;
     // std::cout<<"i= "<<i<<std::endl;
     if(k==262144){
        event1.notify();
